@@ -15,6 +15,7 @@ You will write your WebAudio functionality in an external JavaScript file and us
 #### **1. Set Up the HTML File**
 - Create a basic webpage (`index.html`).
 - Add two sliders (`input type="range"`)—one for frequency and one for gain.
+- Add two buttons - one to start and one to stop
 - Link an external JavaScript file (`script.js`).
 
 #### **2. Implement WebAudio in `script.js`**
