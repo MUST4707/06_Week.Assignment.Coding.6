@@ -30,8 +30,8 @@ You will write your WebAudio functionality in an external JavaScript file and us
 #### **3. Use Function Expressions for Modularity**
 - Define each key action as a **function expression**, such as:
   ```javascript
-  const updateFrequency = function(value) {
-      oscillator.frequency.value = value;
+  const updateFrequency = function(f) {
+      oscillator.frequency.value = f;
   };
   ```  
 - Attach event listeners to sliders to modify frequency and gain dynamically.
